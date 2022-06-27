@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.navBar {
+  margin: 0;
+  width: 100%;
+  box-shadow: 0 0 4px lightskyblue;
+  border-radius: 8px;
+}
+
+.name {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(73, 123, 240);
+  text-transform: capitalize;
+}
